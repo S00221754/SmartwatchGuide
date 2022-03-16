@@ -1,0 +1,121 @@
+.logo
+{
+    float: left; 
+    margin-right: 20px;
+    height: 200px; width: 200px;
+    border: solid 3px rgb(255, 218, 54);
+    border-radius: 225px;
+}
+nav 
+{
+    background-color: rgb(77, 77, 77);
+    padding: 5px;
+    margin-right: 5pxz;
+    border-bottom: solid 4px rgb(255, 218, 54);;
+}
+
+nav ul 
+{   
+    text-align: center;
+    font-size: 3em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: rgb(77, 77, 77);
+    display: inline;
+    padding: 20px;
+    margin: 30px;
+    border: 4px solid rgb(255, 218, 54);
+    border-radius: 25px;
+    
+}
+nav ul li a 
+{
+    color: black;
+    text-decoration: none;
+}
+#active 
+{
+    background-color: rgb(252, 208, 13);
+}
+body
+{
+    background-color: rgb(77, 77, 77);
+}
+header 
+{    
+    padding-top: 7px;
+    height: 225px;
+    font-size:  2em;
+    border-bottom: 5px solid rgb(255, 218, 54);
+}
+header h1 u
+{
+    text-decoration: none;
+    border-bottom: 5px solid rgb(255, 218, 54);
+}
+.IndexImagesA
+{
+    float: left;
+    margin: 30px;
+    width: 50%;
+    border: 2px solid white;
+
+    
+}
+.IndexImagesB
+{
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    width: 40%;
+    border: 2px solid white;
+
+}
+#subtitle1
+{
+
+    font-size: 2.5em;
+}
+#subtitle2
+{
+
+    font-size: 2em;
+}
+#descText
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+#benefits
+{
+    float: left;
+    width: 75%;
+}
+
+.smartwatch
+{
+    float: right;
+}
+#benefitsdesc
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+   
+}
+#what
+{
+    float: left;
+    width: 75%;
+
+}
+aside
+{
+    padding-left: 5%;
+    height: 1080px;
+    border-left: 5px solid rgb(255, 218, 54);
+    float: right;
+    width: 18%;
+}
