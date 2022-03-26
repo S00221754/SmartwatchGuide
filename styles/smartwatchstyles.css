@@ -1,4 +1,5 @@
-.logo
+/* This is the code for the layout of the pages */
+.logo 
 {
     float: left; 
     margin-right: 20px;
@@ -12,6 +13,7 @@ nav
     background-color: rgb(26, 26, 26);
     padding: 2%;
     border-bottom: solid 4px rgb(55, 131, 230);
+    width: 100%;
 }
 
 nav ul 
@@ -36,6 +38,7 @@ nav ul li a
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+nav ul :hover {background-color: rgb(55, 131, 230);}
 #active 
 {
     background-color: rgb(56, 131, 230);
@@ -62,12 +65,55 @@ header h1 u
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.IndexImagesA
+aside
+{
+    padding-left: 0;
+    height: 1080px;
+    border-left: 5px solid rgb(55, 131, 230);
+    float: right;
+    width: 21%;
+}
+footer ul li
+{
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+    border: 2px solid rgb(55, 131, 230);
+    border-radius: 15px;
+    margin: 3px;
+}
+footer ul li a
+{
+    text-decoration:  none;
+    color: white;
+    display: inline;
+    
+    
+}
+footer{
+    clear: both;
+    border: 2px solid rgb(55, 131, 230);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom:  0px;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    padding-top: 10px;
+}
+footer ul :hover{ background-color: rgb(56, 131, 230)}
+
+
+/* The content for the homepage */
+.IndexImagesA 
 {
     float: left;
     margin: 30px;
     width: 50%;
     border: 2px solid rgb(55, 131, 230);
+    margin-bottom: 10px;
 
     
 }
@@ -77,28 +123,26 @@ header h1 u
     float: right;
     margin-left: 10px;
     margin-right: 10px;
-    width: 35%;
+    width: 40%;
     border: 2px solid rgb(55, 131, 230);
 
 
 }
-#subtitle1
-{
-    font-size: 2.5em;
-}
-#subtitle2
-{
-
-    font-size: 2.5em;
-}
-#descText
+#subtitle
 {
     
-    font-size: 1.5em;
+    font-size: 2em;
+}
+
+#descText
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 1.25em;
 }
 #benefits
 {
-    
+    padding-top: 75px;
     float: left;
     width: 75%;
 }
@@ -110,7 +154,8 @@ header h1 u
 #benefitsdesc
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5em;   
+    text-align: left;
+    font-size: 1.25em;   
 }
 #what
 {
@@ -118,11 +163,16 @@ header h1 u
     width: 75%;
 
 }
-aside
+/* Code for the types page */
+.TypesImagesA
 {
-    padding-left: 0;
-    height: 1080px;
-    border-left: 5px solid rgb(55, 131, 230);
-    float: right;
-    width: 21%;
+    float: left;
+    margin: 20px;
+    margin-top: 10px;
+    width: 35%;
+    border: 2px solid rgb(55, 131, 230);
+    margin-bottom: 10px;
 }
+
+
+
