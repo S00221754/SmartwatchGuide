@@ -45,6 +45,7 @@ nav ul :hover {background-color: rgb(55, 131, 230);}
 }
 body
 {
+    height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-color: rgb(26, 26, 26);
@@ -68,6 +69,7 @@ header h1 u
 aside
 {
     padding-left: 0;
+    max-height: 1250px;
     height: 1080px;
     border-left: 5px solid rgb(55, 131, 230);
     float: right;
@@ -113,17 +115,18 @@ footer ul :hover{ background-color: rgb(56, 131, 230)}
     margin: 30px;
     width: 50%;
     border: 2px solid rgb(55, 131, 230);
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 
     
 }
 .IndexImagesB
 {
-    margin-top: 10px;
+    
     float: right;
+    
     margin-left: 10px;
     margin-right: 10px;
-    width: 40%;
+    width: 32%;
     border: 2px solid rgb(55, 131, 230);
 
 
