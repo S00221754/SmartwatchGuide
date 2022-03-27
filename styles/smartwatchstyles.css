@@ -11,7 +11,8 @@ nav
 {
 
     background-color: rgb(26, 26, 26);
-    padding: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     border-bottom: solid 4px rgb(55, 131, 230);
     width: 100%;
 }
@@ -67,7 +68,8 @@ header h1 u
 }
 aside
 {
-    height:1350px; 
+    
+    padding-bottom: 55%;
     border-left: solid 4px rgb(55, 131, 230);
     padding-left: 0;
     float: right;
@@ -144,7 +146,7 @@ footer ul :hover{ background-color: rgb(56, 131, 230)}
 {
     padding-top: 7px;
     float: left;
-    width: 75%;
+    width: 71%;
 }
 
 .smartwatch
