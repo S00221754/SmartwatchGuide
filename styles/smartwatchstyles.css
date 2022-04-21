@@ -1,11 +1,13 @@
-/* This is the code for the layout of the pages */
+/**** This is the code for the layout of the pages ******/
 .logo 
 {
     float: left; 
+    margin-top: 10px;
+    margin-left: 10px;
     margin-right: 20px;
     height: 200px; width: 200px;
     border: solid 3px rgb(55, 131, 230);
-    border-radius: 225px;
+    border-radius: 250px;
 }
 nav 
 {
@@ -44,41 +46,76 @@ nav ul :hover {background-color: rgb(55, 131, 230);}
 {
     background-color: rgb(56, 131, 230);
 }
-body
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    background-color: rgb(26, 26, 26);
-}
+
 header 
 {    
-
-    color: rgb(55, 131, 230);
+    background-image: url(../images/index/header2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:  35%;
+    color: rgb(255, 255, 255);
     padding-top: 3px;
-    height: 225px;
+    height: 250px;
     font-size:  2em;
-    border-bottom: 4px solid rgb(55, 131, 230);
+    border: 4px solid rgb(55, 131, 230);
+    border-radius: 20px;
 }
 header h1 u
 {
     text-decoration: none;
-    border-bottom: 5px solid rgb(255, 255, 255);
-    border-bottom-left-radius: 10px;
+    border-bottom: 5px solid rgb(55, 131, 230);
+    border-bottom-left-radius: 10px; /* Cruve underlining of title */
     border-bottom-right-radius: 10px;
 }
+article
+{   
+    padding-right: 4%;
+    border-right: solid 5px rgb(55, 131,230);
+    float: left;
+    width: 80%;
+    padding-bottom: 30px;
+}
+/***** Code for the aside *****/
 aside
 {
-    
-    padding-bottom: 55%;
-    border-left: solid 4px rgb(55, 131, 230);
-    padding-left: 0;
+    text-align: center;
     float: right;
-    width: 21%;
+    font-size: 1em;
+    width: 15%;
 }
+aside ol li a 
+{
+    font-size: 1.25em;   
+    color: white; 
+}
+aside ol li a :hover
+{
+    color: rgb(55, 131, 230);
+    
+}
+aside ol li
+{
+    padding-bottom: 1.5em;
+}
+aside p a
+{
+    font-size: 1.25em;   
+    color: white;
+}
+aside p :hover
+{
+    color: rgb(55, 131, 230);
+}
+.Toplist
+{
+    padding-right: 40px;
+    list-style-position: inside;
+}
+/* Code for the footer */
 footer ul li
 {
     list-style-type: none;
-    color: white;
+    color: rgb(255, 255, 255);
     display: inline;
     padding: 15px;
     border: 2px solid rgb(55, 131, 230);
@@ -95,7 +132,7 @@ footer ul li a
 }
 footer{
     clear: both;
-    border: 2px solid rgb(55, 131, 230);
+    border: 3px solid rgb(55, 131, 230);
     padding: 0;
     margin: 0;
     position: relative;
@@ -106,25 +143,24 @@ footer{
     padding-top: 10px;
 }
 footer ul :hover{ background-color: rgb(56, 131, 230)}
-
-
-/* The content for the homepage */
+/********** Code for the homepage ***********/
 .IndexImagesA 
 {
     float: left;
-    margin: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 30px;
     width: 50%;
     border: 2px solid rgb(55, 131, 230);
     margin-bottom: 5px;
-
+    
     
 }
 .IndexImagesB
 {
     
     float: right;    
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;    
     width: 35%;
     border: 2px solid rgb(55, 131, 230);
 
@@ -138,15 +174,17 @@ footer ul :hover{ background-color: rgb(56, 131, 230)}
 
 #descText
 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    font-size: 1.25em;
+    font-size: 1.75em;
+    padding-bottom: 100px;
 }
 #benefits
 {
-    padding-top: 7px;
+    
     float: left;
     width: 71%;
+    
 }
 
 .smartwatch
@@ -155,65 +193,130 @@ footer ul :hover{ background-color: rgb(56, 131, 230)}
 }
 #benefitsdesc
 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    font-size: 1.25em;   
+    font-size: 1.75em;   
 }
-#what
-{
-    float: left;
-    width: 75%;
-    padding-bottom: 30px;
-
-}
-/* Code for the types page */
+/********* Code for the types page*********/
 .TypesImagesA
 {
-    float: right;
-    margin: 20px;
-    margin-top: 10px;
-    width: 35%;
+    margin-left: 3%;
+    width: 90%;
     border: 2px solid rgb(55, 131, 230);
-    margin-bottom: 0px;
-}
-#TypeA
-{
-    padding-bottom: 100px;
-}
-#smartwatchdesc
-{
     
-   
-    font-size: 1.25em;
 }
 .TypesImagesB
 {
-    float: left;
-    margin: 20px;
-    margin-top: 10px;
-    width: 25%;
+    margin-left: 20%;
+    width: 60%;
     border: 2px solid rgb(55, 131, 230);
-    margin-bottom: 10px;
-}
-#fitbitdesc
-{
-    width: 70%;
-    font-size: 1.25em;
-}
-#TypeB
-{
-    padding-bottom: 10%;
+    
 }
 .TypesImagesC
 {
-    float: right;
-    margin: 20px;
-    margin-top: 10px;
-    width: 25%;
+    margin-left: 20%;
+    width: 55%;
     border: 2px solid rgb(55, 131, 230);
-    margin-bottom: 10px;
 }
+/* Code for the columns */
+.typesColumn
+{
+    width: 80%;
+    column-count: 3;
+    column-rule: 3px solid rgb(55, 131, 230);
+    column-gap: 5%;
+    padding: 1%;
+}
+/*Code for the table */
+.table  
+{
 
+    float: left;
+    width: 78%;
+}
+table
+{
+    padding-left: 30px;
+    width: 100%;
+    
+}
+th 
+{
+    border: solid 2px rgb(55, 131, 230); 
+    padding-bottom: 10px;
+}
+/**** Code for the review page ****/
+#title
+{
+    text-align: center;
+    font-size: 1.75em;
+}
+#viddesc
+{
+    text-align: center;
+    font-size: 1.5em;
+}
+.Video
+{
+    margin: 0 auto;
+    display: block; /* Centers video */
+    border: 4px solid rgb(55, 131, 230);
+    border-radius: 10px;
+}
+article p a 
+{
+    
+    color: rgb(55, 131, 230);
+}
+/**** Code for Contact us page ****/
+.ContactUs
+{
+    border-right: none;   
+}
+.Address
+{
+    float: right;
+    width: 48%;
+    text-align: center;
+    border-right: none;
+}
+.map    
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: none;
+    border: 2px solid rgb(55, 131, 230);
+    align-content: center;
+    float: left;
+    width: 45%;
+}
+/* Contact form code */
+.contactform
+{
+    margin-left: 0px;
+    margin: 10px;
+    width: 48%;
+    border: 2px solid rgb(55, 131, 230);
+    float: right;
 
-
-
+    
+}
+.required 
+{
+    font-weight: bold;
+    color: red;
+}
+label
+{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}   
+input[type="checkbox"]{width: 15px;}
+input[type="radio"]{width: 15px;}
+#button
+{
+    margin-left: 35%;
+}
